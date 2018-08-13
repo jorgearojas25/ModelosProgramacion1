@@ -1,7 +1,8 @@
 /*
  * Proyecto para clase de Modelos de Programación I
  * Universidad Distrital Francisco Jose de Caldas
- * Profesor Julio Baron    
+ * Profesor Julio Baron
+ *
  */
 package abstractfactory;
 
@@ -31,7 +32,8 @@ public class PruebaAbstractFactory {
         apoyoSillaP = sillaP.fabricarApoyo();
         estructuraSillaP = sillaP.fabricarEstructura();
         respaldarSillaP = sillaP.fabricarRespaldar();
-
+        
+        System.out.println("\n------------------Silla Plastico-------------------\n");
         System.out.println("Se creo silla con Apoyo: " + apoyoSillaP.getClass());
         System.out.println("                  Estructura: " + estructuraSillaP.getClass());
         System.out.println("                  Respaldar" + respaldarSillaP.getClass());
@@ -45,7 +47,7 @@ public class PruebaAbstractFactory {
         apoyoSillaM = sillaM.fabricarApoyo();
         estructuraSillaM = sillaM.fabricarEstructura();
         respaldarSillaM = sillaM.fabricarRespaldar();
-
+        System.out.println("\n------------------Silla Madera-------------------\n");
         System.out.println("Se creo silla con Apoyo: " + apoyoSillaM.getClass());
         System.out.println("                  Estructura: " + estructuraSillaM.getClass());
         System.out.println("                  Respaldar" + respaldarSillaM.getClass());
@@ -59,7 +61,8 @@ public class PruebaAbstractFactory {
         apoyoSillaA = sillaA.fabricarApoyo();
         estructuraSillaA = sillaA.fabricarEstructura();
         respaldarSillaA = sillaA.fabricarRespaldar();
-
+        
+        System.out.println("\n------------------Silla Aluminio-------------------\n");
         System.out.println("Se creo silla con Apoyo: " + apoyoSillaA.getClass());
         System.out.println("                  Estructura: " + estructuraSillaA.getClass());
         System.out.println("                  Respaldar" + respaldarSillaA.getClass());
