@@ -15,7 +15,7 @@ import concret.FabricaConcretaPlastico;
  *
  * @author Jorge 
  */
-public class AbstractFactory {
+public class PruebaAbstractFactory {
 
     /**
      * @param args the command line arguments
@@ -34,7 +34,7 @@ public class AbstractFactory {
 
         System.out.println("Se creo silla con Apoyo: " + apoyoSillaP.getClass());
         System.out.println("                  Estructura: " + estructuraSillaP.getClass());
-        System.out.println("Se creo silla con Respaldar" + respaldarSillaP.getClass());
+        System.out.println("                  Respaldar" + respaldarSillaP.getClass());
         
         FabricaAbstractaSilla sillaM = new FabricaConcretaMadera();
 
@@ -47,8 +47,8 @@ public class AbstractFactory {
         respaldarSillaM = sillaM.fabricarRespaldar();
 
         System.out.println("Se creo silla con Apoyo: " + apoyoSillaM.getClass());
-        System.out.println("Se creo silla con Estructura: " + estructuraSillaM.getClass());
-        System.out.println("Se creo silla con Respaldar" + respaldarSillaM.getClass());
+        System.out.println("                  Estructura: " + estructuraSillaM.getClass());
+        System.out.println("                  Respaldar" + respaldarSillaM.getClass());
         
         FabricaAbstractaSilla sillaA = new FabricaConcretaAluminio();
 
@@ -61,8 +61,8 @@ public class AbstractFactory {
         respaldarSillaA = sillaA.fabricarRespaldar();
 
         System.out.println("Se creo silla con Apoyo: " + apoyoSillaA.getClass());
-        System.out.println("Se creo silla con Estructura: " + estructuraSillaA.getClass());
-        System.out.println("Se creo silla con Respaldar" + respaldarSillaA.getClass());
+        System.out.println("                  Estructura: " + estructuraSillaA.getClass());
+        System.out.println("                  Respaldar" + respaldarSillaA.getClass());
 
         // TODO code application logic here
     }
