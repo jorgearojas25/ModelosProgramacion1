@@ -1,6 +1,7 @@
 /*
- * Proyecto para clase de Programacion Avanzada
- * Universidad Distrital Francisco Jose de Caldas  
+ * Proyecto para clase de Modelos de Programación I
+ * Universidad Distrital Francisco Jose de Caldas
+ * Profesor Julio Baron    
  */
 package abstracts;
 
