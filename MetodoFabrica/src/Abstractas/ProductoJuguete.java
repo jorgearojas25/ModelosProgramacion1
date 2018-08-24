@@ -11,6 +11,9 @@ package Abstractas;
  */
 public abstract class ProductoJuguete {
     
-    public abstract boolean Boton (int x);
+    public abstract String Boton(String s);
+    
+    String s = "Se Oprime el Boton";
+    
     
 }

@@ -5,20 +5,22 @@
  */
 package Concretas;
 
-import Abstractas.*;
+import Abstractas.ProductoJuguete;
 
 /**
  *
  * @author Estudiantes
  */
-public class FabricaLuces extends FabricaJuguetesAbstracta{
+public class ProductoSonido extends ProductoJuguete {
 
     @Override
-    public ProductoJuguete fabricar() {
-     
-        ProductoJuguete producto = new ProductoLuces();
-        return producto;
+    public String Boton(String s){
+        
+        String ssonido="y hace sonidos extraños";
+        
+        return s + ssonido;
+        
     }
-    
+
 
 }

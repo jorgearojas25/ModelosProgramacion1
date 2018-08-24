@@ -11,12 +11,12 @@ import Abstractas.*;
  *
  * @author Estudiantes
  */
-public class FabricaLuces extends FabricaJuguetesAbstracta{
+public class FabricaSonido extends FabricaJuguetesAbstracta{
 
     @Override
     public ProductoJuguete fabricar() {
      
-        ProductoJuguete producto = new ProductoLuces();
+        ProductoJuguete producto = new ProductoSonido();
         return producto;
     }
     
