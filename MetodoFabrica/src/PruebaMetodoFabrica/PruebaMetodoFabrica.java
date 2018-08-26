@@ -4,6 +4,8 @@
  * and open the template in the editor.
  */
 package PruebaMetodoFabrica;
+import Abstractas.*;
+import Concretas.*;
 
 /**
  *
@@ -15,6 +17,17 @@ public class PruebaMetodoFabrica {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        
+        String s = "Se oprime el boton ";
+       
+        FabricaJuguetesAbstracta fabrica = new FabricaLuces();
+        ProductoJuguete jugueteLuces;
+        
+        jugueteLuces = fabrica.fabricar();
+        
+        System.out.print(jugueteLuces.Boton(s));
+        
+        
         // TODO code application logic here
     }
     
