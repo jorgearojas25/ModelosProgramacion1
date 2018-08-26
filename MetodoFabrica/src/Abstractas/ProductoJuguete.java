@@ -13,7 +13,5 @@ public abstract class ProductoJuguete {
     
     public abstract String Boton(String s);
     
-    String s = "Se Oprime el Boton";
-    
     
 }
