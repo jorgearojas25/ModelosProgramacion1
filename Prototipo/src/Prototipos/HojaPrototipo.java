@@ -7,7 +7,6 @@ package Prototipos;
 
 import Duplicar.Duplicar;
 import Objects.Hoja;
-import Objects.Folder;
 
 /**
  *

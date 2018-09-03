@@ -4,9 +4,7 @@
  * and open the template in the editor.
  */
 package Prototipo;
-import Objects.*;
 import Prototipos.*;
-import Duplicar.Duplicar;
 
 
 /**

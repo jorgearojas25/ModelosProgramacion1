@@ -20,11 +20,11 @@ public class FolderPrototipo extends Folder implements Duplicar {
         folder.setSeparador((SeparadorPrototipo)this.getSeparador().duplicar());
         return folder;
     }
-    @Override
+    /*@Override
     public String toString(){
  
     return "Las hojas miden "+this.getAltoHoja()+" X "+this.getAnchoHoja()+" Y los separadores mideen: "
 +this.getAltoSeparador()+" X "+this.getAnchoHoja();
 }
-    
+    */
 }

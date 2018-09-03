@@ -5,7 +5,6 @@
  */
 package Prototipos;
 import Objects.Separador;
-import Objects.Folder;
 import Duplicar.Duplicar;
 
 /**
