@@ -5,11 +5,14 @@
  */
 package principal;
 
+
+import ClasesAbstractas.AutosBuilder;
 import ClasesConcretas.*;
 
 
 public class Principal {
-
+    
+  
  
     public static void main(String[] args) {
         Ensamblador cliente1 = new Ensamblador(new ModeloB());
@@ -19,10 +22,12 @@ public class Principal {
         Ensamblador cliente2 = new Ensamblador(new ModeloC());
         cliente1.construirAuto();
         System.out.println(cliente1.getAuto());
+       
         
         Ensamblador cliente3 = new Ensamblador(new ModeloA());
         cliente1.construirAuto();
         System.out.println(cliente1.getAuto());
+      
         
     }
     
