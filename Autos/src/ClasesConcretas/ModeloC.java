@@ -25,12 +25,12 @@ public class ModeloC extends AutosBuilder {
 
     @Override
     public void buildPuertas() {
-        this.auto.setLlantas(3);
+        this.auto.setPuertas(3);
     }
 
     @Override
     public void buildMotor() {
-        this.auto.setLlantas(6);
+        this.auto.setMotor(6);
     }
     
 }

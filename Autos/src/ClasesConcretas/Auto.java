@@ -39,7 +39,8 @@ public class Auto {
         this.puertas = puertas;
     }
     
+    @Override
     public String toString(){
-        return "El auto tiene: "+llantas+ " el chasis N°: "+chasis+" y un numero de puertas "+puertas+" y el motor N°: "+motor;
+        return "El auto tiene: "+llantas+ " llantas el chasis N°: "+chasis+" un numero de puertas "+puertas+" y el motor N°: "+motor;
     }
 }

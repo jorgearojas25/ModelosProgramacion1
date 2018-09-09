@@ -16,12 +16,12 @@ public class ModeloB extends AutosBuilder{
 
     @Override
     public void buildPuertas() {
-        this.auto.setLlantas(2);
+        this.auto.setPuertas(2);
     }
 
     @Override
     public void buildMotor() {
-        this.auto.setLlantas(4);
+        this.auto.setMotor(4);
     }
 
     

@@ -3,10 +3,10 @@ package ClasesConcretas;
 import ClasesAbstractas.AutosBuilder;
 
 public class ModeloA extends AutosBuilder {
-    
+    //Varia dependiendo del modelo
     @Override
     public void buildLlantas() {
-        this.auto.setLlantas(2);
+        this.auto.setLlantas(7);
     }
 
     @Override
@@ -16,12 +16,12 @@ public class ModeloA extends AutosBuilder {
 
     @Override
     public void buildPuertas() {
-        this.auto.setLlantas(0);
+        this.auto.setPuertas(0);
     }
 
     @Override
     public void buildMotor() {
-        this.auto.setLlantas(8);
+        this.auto.setMotor(8);
     }
     
 }

@@ -16,6 +16,7 @@ public class Ensamblador {
         ensamblarAuto.buildChasis();
         ensamblarAuto.buildPuertas();
         ensamblarAuto.buildMotor();
+        
     }
     
     public Auto getAuto(){
