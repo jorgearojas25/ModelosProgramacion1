@@ -14,6 +14,15 @@ import Prototipos.*;
 public class Folder {
     public HojaPrototipo hoja;
     public SeparadorPrototipo separador;
+    public String diseño;
+
+    public String getDiseño() {
+        return diseño;
+    }
+
+    public void setDiseño(String diseño) {
+        this.diseño = diseño;
+    }
 
     public HojaPrototipo getHoja() {
         return hoja;

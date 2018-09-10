@@ -25,12 +25,14 @@ public class PruebaPrototipo {
         
         FolderPrototipo folderDupA = new FolderPrototipo();
         folderDupA = (FolderPrototipo)folderBase.duplicar();
+        folderDupA.setDiseño(" de flores");
         
         FolderPrototipo folderDupB = new FolderPrototipo();
         folderDupB = (FolderPrototipo)folderBase.duplicar();
+        folderDupB.setDiseño(" de carros");
         
-        System.out.println("info base: "+folderBase);
-        System.out.println("info duplicado 1:"+folderDupA);
+        System.out.println("info base: "+folderBase+" tiene un diseño"+folderBase.getDiseño());
+        System.out.println("info duplicado 1:"+folderDupA+" tiene un diseño"+folderDupA.getDiseño());
         // TODO code application logic here
     }
     
