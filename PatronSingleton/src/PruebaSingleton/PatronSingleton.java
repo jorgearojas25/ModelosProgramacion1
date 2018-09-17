@@ -19,7 +19,9 @@ public class PatronSingleton {
         
         Entrada e = Entrada.obtenerEntrada();
         Entrada e1 = Entrada.obtenerEntrada();
-        
+        Entrada e2 = Entrada.obtenerEntrada();
+
+       
         
     }
     

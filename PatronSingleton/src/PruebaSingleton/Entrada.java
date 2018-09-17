@@ -14,8 +14,8 @@ import java.util.Scanner;
 public class Entrada {
     
     private static Entrada entrada;
-    private String s;
-    
+
+    private static String s;
     private Entrada(){
     }
     
@@ -25,6 +25,9 @@ public class Entrada {
         entrada = new Entrada();
         entrada.escribir();
         entrada.mostrar();
+        }
+        else{
+        System.out.println("Ya existe una instancia");
         }
     
     }
