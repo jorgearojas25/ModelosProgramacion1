@@ -16,6 +16,11 @@ public class PatronSingleton {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
+        Entrada e = Entrada.obtenerEntrada();
+        Entrada e1 = Entrada.obtenerEntrada();
+        
+        
     }
     
 }
