@@ -5,39 +5,32 @@
  */
 package pruebapatroncomposite;
 
-import java.util.ArrayList;
-
 /**
  *
  * @author Jorge Andres
  */
-public class Nodriza extends Auto{
-    
-    private ArrayList<Auto> partes = new ArrayList<Auto>();
+public class Automovil extends Auto {
 
-    public Nodriza(int masa, double gravedad) {
+    public Automovil(int masa, double gravedad) {
         super(masa, gravedad);
     }
 
-
     @Override
     public void agregar(Auto c) {
-        partes.add(c);
+        throw new UnsupportedOperationException("No lo hace.");
     }
 
     @Override
     public void eliminar(Auto c) {
-        partes.remove(c);
+        throw new UnsupportedOperationException("No lo hace");
     }
 
     @Override
     public double pesoTotal() {
-        double pesoTotal = 0;
-        int i=0;
-        for(i=0;i<partes.size();i++){   
-            pesoTotal = pesoTotal + partes.get(i).pesoTotal();
-        }
-        return pesoTotal;
+      this.masa+=masa;
+      this.gravedad+=gravedad;
+      this.peso+=peso;
+        return peso;
     }
     
 }

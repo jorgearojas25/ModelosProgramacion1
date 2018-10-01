@@ -9,28 +9,28 @@ package pruebapatroncomposite;
  *
  * @author Jorge Andres
  */
-public class Moto extends Componente {
+public class Moto extends Auto {
 
-    public Moto(int masa) {
-        super(masa);
+    public Moto(int masa, double gravedad) {
+        super(masa, gravedad);
     }
 
-
    @Override
-    public void agregar(Componente c) {
+    public void agregar(Auto c) {
         throw new UnsupportedOperationException("No lo hace.");
     }
 
     @Override
-    public void eliminar(Componente c) {
+    public void eliminar(Auto c) {
         throw new UnsupportedOperationException("No lo hace");
     }
 
     @Override
-    public void pesar(int masa) {
+    public double pesoTotal() {
       this.masa+=masa;
       this.gravedad+=gravedad;
       this.peso+=peso;
+      return peso;
     }
     
 }

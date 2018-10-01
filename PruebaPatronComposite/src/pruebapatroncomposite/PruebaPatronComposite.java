@@ -15,13 +15,15 @@ public class PruebaPatronComposite {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
-       Nodriza c1 = new Nodriza(3);
-       Auto auto1 = new Auto(2);
-       Moto moto1 = new Moto(1);
-       c1.agregar(auto1);
-       c1.agregar(moto1);
-       System.out.print(c1.peso);
+       
+       Nodriza Nodriza1 = new Nodriza(3,9.8);
+       Automovil auto1 = new Automovil(2,9.8);
+       Moto moto1 = new Moto(1,9.8);
+       Nodriza1.agregar(auto1);
+       Nodriza1.agregar(moto1);
+       System.out.print(Nodriza1.pesoTotal());
+       Salida salida = Salida.obtenerEntrada();
+      
     }
     
 }

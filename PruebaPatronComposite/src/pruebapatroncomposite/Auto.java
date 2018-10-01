@@ -9,28 +9,20 @@ package pruebapatroncomposite;
  *
  * @author Jorge Andres
  */
-public class Auto extends Componente {
-
-    public Auto(int masa) {
-        super(masa);
-    }
-
-
-    @Override
-    public void agregar(Componente c) {
-        throw new UnsupportedOperationException("No lo hace.");
-    }
-
-    @Override
-    public void eliminar(Componente c) {
-        throw new UnsupportedOperationException("No lo hace");
-    }
-
-    @Override
-    public void pesar(int masa) {
-      this.masa+=masa;
-      this.gravedad+=gravedad;
-      this.peso+=peso;
+public abstract class Auto {
+    protected int masa;
+    protected double gravedad;
+    protected double peso;
+    
+    
+    public Auto(int masa, double gravedad){
+        this.masa = masa;
+        this.gravedad = gravedad;
+        this.peso = masa*gravedad;
     }
     
+    abstract public void agregar(Auto c);
+    abstract public void eliminar(Auto c);
+    abstract public double pesoTotal();
+
 }
