@@ -26,6 +26,7 @@ public class PruebaPatronProxy {
         double resp =0;
         
         
+        
         if(opcion.equals("Sumar")){
             resp = objCalculadora.obtenerSuma(a, b);
         }

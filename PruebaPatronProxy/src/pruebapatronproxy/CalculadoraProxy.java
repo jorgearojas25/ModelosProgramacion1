@@ -14,7 +14,7 @@ public class CalculadoraProxy extends CalculadoraAbstracta{
     Calculadora objCalc;
     
     
-    public void verificarExistencia(){
+    private void verificarExistencia(){
         if(objCalc == null){
             objCalc = new Calculadora();
         }
