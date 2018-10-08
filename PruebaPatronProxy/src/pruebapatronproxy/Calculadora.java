@@ -32,7 +32,7 @@ public class Calculadora extends CalculadoraAbstracta{
         try{
             div = a/b;
         }catch(Exception e){
-            System.out.println("ERROR");
+            throw new UnsupportedOperationException("No es posible");
         }
         return div;
     }
