@@ -15,9 +15,9 @@ public class PruebaPatronCadenaDeResponsabilidad {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-                CostoTransporte objhospital = new CostoTransporte();
+                CostoTransporte objCarga = new CostoTransporte();
 
-        objhospital.pesoDeCarga(51);
+        objCarga.pesoDeCarga(51);
 
     }
     
