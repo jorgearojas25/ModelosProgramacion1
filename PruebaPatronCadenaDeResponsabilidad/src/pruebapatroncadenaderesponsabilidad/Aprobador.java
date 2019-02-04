@@ -10,7 +10,7 @@ package pruebapatroncadenaderesponsabilidad;
  * @author Jorge Andres
  */
 public interface Aprobador {
-        public void pesoDeCarga(int peso);
+        public double costoEnvio(int costo);
         public void setSucesor(Aprobador sucesor);
 }
 

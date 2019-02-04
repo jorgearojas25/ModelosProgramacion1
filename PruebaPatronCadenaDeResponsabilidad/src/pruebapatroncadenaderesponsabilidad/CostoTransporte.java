@@ -13,17 +13,17 @@ public class CostoTransporte implements Aprobador{
         private Aprobador sucesor;
 
     @Override
-    public void pesoDeCarga(int peso) {
-        CargaLigera objLigero = new CargaLigera();
-        this.setSucesor(objLigero);
+    public double costoEnvio(int costo) {
+        CostoBajo objCostoBajo = new CostoBajo();
+        this.setSucesor(objCostoBajo);
         
-        CargaMedia objMedio = new CargaMedia();
-        objLigero.setSucesor(objMedio);
+        CostoMedio objCostoMedio = new CostoMedio();
+        objCostoBajo.setSucesor(objCostoMedio);
         
-        CargaPesada objPesado = new CargaPesada();
-        objMedio.setSucesor(objPesado);
+        CostoAlto objCostoAlto = new CostoAlto();
+        objCostoMedio.setSucesor(objCostoAlto);
         
-        sucesor.pesoDeCarga(peso);
+        return sucesor.costoEnvio(costo);
     }
 
     @Override

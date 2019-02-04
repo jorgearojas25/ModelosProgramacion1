@@ -4,6 +4,7 @@
  * Profesor Julio Baron    
  */
 package pruebapatroncadenaderesponsabilidad;
+import IOSingleton.*;
 
 /**
  *
@@ -15,9 +16,16 @@ public class PruebaPatronCadenaDeResponsabilidad {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-                CostoTransporte objCarga = new CostoTransporte();
+        CostoTransporte objCosto = new CostoTransporte();
+        Salida objSalida = new Salida();
+        Entrada objEntrada = new Entrada();
+        
+        double a = objEntrada.capturar();
+        double resp = objCosto.costoEnvio((int) a);
 
-        objCarga.pesoDeCarga(51);
+        objCosto.costoEnvio((int) a);
+        
+       objSalida.mostrar(resp);
 
     }
     
