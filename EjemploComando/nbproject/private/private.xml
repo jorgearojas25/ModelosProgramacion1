@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/estudiantes/Downloads/CommandPattern-master/src/componentes/Tiempo.java</file>
+            <file>file:/C:/Users/estudiantes/Downloads/CommandPattern-master/src/main/GameObservable.java</file>
+            <file>file:/C:/Users/estudiantes/Downloads/CommandPattern-master/src/main/BreakoutGame.java</file>
+            <file>file:/C:/Users/estudiantes/Downloads/CommandPattern-master/src/comando/ComandoMoverPelota.java</file>
+            <file>file:/C:/Users/estudiantes/Downloads/CommandPattern-master/src/componentes/Bloque.java</file>
+            <file>file:/C:/Users/estudiantes/Downloads/CommandPattern-master/src/componentes/Dimensiones.java</file>
+            <file>file:/C:/Users/estudiantes/Downloads/CommandPattern-master/src/componentes/Paleta.java</file>
+            <file>file:/C:/Users/estudiantes/Downloads/CommandPattern-master/src/soporte/Constants.java</file>
+            <file>file:/C:/Users/estudiantes/Downloads/CommandPattern-master/src/main/Reloj.java</file>
+            <file>file:/C:/Users/estudiantes/Downloads/CommandPattern-master/src/comando/ComandoMoverPaleta.java</file>
+            <file>file:/C:/Users/estudiantes/Downloads/CommandPattern-master/src/comando/ComandoActualizarReloj.java</file>
+            <file>file:/C:/Users/estudiantes/Downloads/CommandPattern-master/src/comando/ComandoEstadoBloque.java</file>
+            <file>file:/C:/Users/estudiantes/Downloads/CommandPattern-master/src/componentes/Pelota.java</file>
+            <file>file:/C:/Users/estudiantes/Downloads/CommandPattern-master/src/comando/Comando.java</file>
+            <file>file:/C:/Users/estudiantes/Downloads/CommandPattern-master/src/main/Tablero.java</file>
+        </group>
+    </open-files>
+</project-private>
